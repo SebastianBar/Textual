@@ -29,8 +29,11 @@ jobs:
       - name: Build the 'Standard Release' scheme
         run: xcodebuild -scheme "Textual (Standard Release)" build
 
+      - name: Put the built app in the artifacts directory
+        run: mkdir artifacts && cp -R "Build Results/Release/Textual.app" "artifacts/Textual.app"
+
       - name: Upload the built app
         uses: actions/upload-artifact@v3
         with:
           name: textual-standard-release
-          path: Build\ Results/Release/Textual.app
+          path: artifacts
