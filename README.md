@@ -16,7 +16,7 @@ Precompiled versions of Textual can be purchased in the [Mac App Store](http://w
 - [Homepage](https://codeux.com/textual)
 - [Frequently Asked Questions](https://help.codeux.com/textual/Frequently-Asked-Questions.kb)
 - [Support](https://help.codeux.com/textual/Support.kb)
-- \#textual on chat.freenode.net
+- \#textual on irc.libera.chat
 - Guides: [Writing Plugins](https://help.codeux.com/textual/Writing-Plugins.kb), [Writing Scripts](https://help.codeux.com/textual/Writing-Scripts.kb)
 
 ## Note Regarding Downloading Source Code
@@ -31,7 +31,7 @@ git submodule update --init --recursive
 
 ## Note Regarding Code Signing
 
-**DO NOT change the Code Signing Identity setting through Xcode.** Textual uses a configuration file to specify the code signing identity. This allows it to be used accross all projects associated with Textual without having to modify each.
+**DO NOT change the Code Signing Identity setting through Xcode.** Textual uses a configuration file to specify the code signing identity. This allows it to be used across all projects associated with Textual without having to modify each.
 
 **DO** edit the file located at _[Configurations ➜ Build ➜ Code Signing Identity.xcconfig](https://github.com/Codeux-Software/Textual/blob/master/Configurations/Build/Code%20Signing%20Identity.xcconfig)_
 
